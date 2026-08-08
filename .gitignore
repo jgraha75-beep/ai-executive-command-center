@@ -1,0 +1,45 @@
+# Local and generated files
+.DS_Store
+*.swp
+*.tmp
+*.log
+
+# Archives and generated exports may contain private snapshots
+*.tar.gz
+*.zip
+*.manifest.txt
+*.sha256
+
+# Private operational state
+00_EXECUTIVE_COMMAND_CENTER/
+00_EXECUTIVE_COMMAND_CENTER/APPLICATION_PACKS_2026-08-04/
+00_EXECUTIVE_COMMAND_CENTER/output/
+00_EXECUTIVE_COMMAND_CENTER/CAREER_*.md
+00_EXECUTIVE_COMMAND_CENTER/ECC_*.md
+02_OPERATIONAL_LEDGERS/
+05_DOMAIN_COMMAND_CENTERS/
+06_CURRENT_STATE/
+07_KNOWLEDGE_LAYER/
+
+# Internal-only guides and registries not intended for public publication
+01_SYSTEM_REGISTRY/COMMAND_CENTER_REGISTRY.md
+01_SYSTEM_REGISTRY/COMPONENT_VERSION_REGISTRY.md
+FEEDBACK_LOG_TEMPLATE.md
+SETUP_PROMPT.md
+USER_GUIDE.md
+
+# Personal documents and raw media
+**/*.pdf
+**/*.docx
+**/*.mp4
+**/*.mov
+**/*.jpg
+**/*.png
+**/*.heic
+
+# Local secrets and tool state
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
